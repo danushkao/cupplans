@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+body{
+	font: 400 16px/1.56 Lato, sans-serif;
+	color:  #3c4955;
+	background: #FADC7E;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 50px;
+	max-width: 1180px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+	border-radius: 3px;
+	border:2px solid #48bf72;
+	height: 39px;
+	color: #48bf72;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 20px;
+	font: 700 14px/35px Lato, 	sans-serif;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+	background-color: #48BF72;
+	color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-cups {
+	display: flex;
+	justify-content: space-around;
+	max-width: 1150px;
+}
+.ba-cups__1 {
+	background-color: #FFF;
+	max-width: 360px;
+	max-height: 441px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 41px 104px 34px 104px;
+	align-self: center;
+	border-radius: 2%;
+}
+.ba-cups__2 {
+	background-color: #FFF;
+	max-width: 361px;
+	max-height: 500px;
+	margin-left: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px 104px 56px 104px;
+	align-self: stretch;
+	border-radius: 2%;
+}
+
+.ba-cups__3 {
+	background-color: #FFF;
+	max-width: 360px;
+	max-height: 441px;
+	margin-left: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 41px 104px 34px 104px;
+	align-self: center;
+	border-radius: 2%;
+}
+
+img {
+	max-width: 155px;
+	max-height: 155px;
+}
+
+h2,h3,p {
+	margin: 0 auto;
+}
+h2 {
+	font-size: 70px;
+	font-weight: 700;
+	color:  #02995b;
+	margin-bottom: 23px
+}
+h3 {
+	font-family: Miso;
+	color:  #333333;
+	font-size: 56px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+	margin-bottom: 35px;
+}
+p {
+	font-family: Lato;
+	color:  #333333;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 26px;
+		text-align: center;
+		max-width: 162px;
+}
+img {
+	margin-bottom: 32px;
+}
